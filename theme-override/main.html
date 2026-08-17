@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+  {{ super() }}
+
+  {% if git_page_authors %}
+    <div class="md-source-date">
+      <small>
+          作者：{{ git_page_authors | default('enable mkdocs-git-authors-plugin') }}
+      </small>
+    </div>
+  {% endif %}
+
+  <script>
+    var current_edition = "detailed";
+    var saved_edition = localStorage.getItem("rust-docs-edition");
+    if (saved_edition === "concise" || saved_edition === "detailed") {
+      current_edition = saved_edition;
+    }
+
+    var apply_edition = function () {
+      var elements = Array.from(document.getElementsByTagName("div"));
+      for(var i = 0;i < elements.length;i++) {
+        if (elements[i].getAttribute("edition") !== null) {
+          if (elements[i].getAttribute("edition") === current_edition) {
+            elements[i].classList.remove("hidden");
+          } else {
+            elements[i].classList.add("hidden");
+          }
+        }
+
+        if (elements[i].classList.contains("admonition") && elements[i].classList.contains("tip")) {
+          if (current_edition === "concise") {
+            elements[i].classList.add("hidden");
+          } else {
+            elements[i].classList.remove("hidden");
+          }
+        }
+      }
+    };
+    var change_edition = function () {
+      if (current_edition === "concise") {
+        current_edition = "detailed";
+        alert$.next("已切换到详细版本");
+      } else {
+        current_edition = "concise";
+        alert$.next("已切换到简洁版本");
+      }
+      apply_edition();
+      localStorage.setItem("rust-docs-edition", current_edition);
+    };
+    apply_edition();
+  </script>
+  <style>
+    .hidden {
+      display: none !important;
+    }
+  </style>
+{% endblock %}

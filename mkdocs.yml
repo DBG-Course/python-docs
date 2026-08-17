@@ -1,0 +1,91 @@
+site_name: 程序设计训练（Python）
+site_description: 'Documentation for Crawler Programming Assignment of Programming and Training (Python) Course'
+site_author: '程序设计训练 Python 教学组'
+site_url: 'https://dbg-course.github.io/python-docs/'
+copyright: 'Copyright &copy; 2023-2027 清华大学程序设计训练 Python 教学组。All Rights Reserved.'
+
+repo_name: 'DBG-Course/python-docs'
+repo_url: 'https://github.com/DBG-Course/python-docs/tree/2026-python'
+
+nav:
+  - 课程概述: index.md
+  - 实验一：爬虫与信息系统:
+    - 实验概述: crawler/index.md
+    - 实验内容:
+      - 爬虫: crawler/project/crawler.md
+      - Web系统设计: crawler/project/web.md
+      - 数据分析: crawler/project/analysis.md
+    - 实验指导:
+      - 爬虫: crawler/ref/crawler.md
+      - Web系统设计: crawler/ref/django.md
+      - 自然语言处理与信息检索: crawler/ref/analysis.md
+      - 数据可视化: crawler/ref/visualize.md
+    - 评分标准: crawler/requirements.md
+    - FAQ: crawler/faq.md
+    - "附录：本地 Git 安装与配置指南": crawler/git.md
+
+theme:
+  name: material
+  language: 'zh'
+  custom_dir: 'theme-override/'
+  features:
+    - navigation.instant
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - search.share
+
+
+exclude_docs: |
+  site/
+  oj/
+  MiniGPT/
+
+
+# Strategy: Use an absolute path
+markdown_extensions:
+  - attr_list
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: '' # default ''
+      absolute: false # default: false
+      tags: 'a script img link object embed'
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/polyfill/3.112.0/polyfill.min.js?features=es6
+  - https://fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - 'https://cdn.jsdelivr.net/npm/wavedrom@2.1.2/wavedrom.unpkg.js'
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      locale: zh
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+  - glightbox
+
+extra:
+  analytics:
+    provider: google
+    property: G-69YPS2LP7R
