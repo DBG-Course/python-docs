@@ -1,0 +1,14 @@
+.faq-new {
+  display: inline-block;
+  margin: 0 0.2em;
+  padding: 0.08em 0.5em;
+  border: 1px solid #fb923c;
+  border-radius: 999px;
+  background: #fff7ed;
+  color: #c2410c;
+  font-size: 0.68em;
+  font-weight: 700;
+  line-height: 1.35;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
