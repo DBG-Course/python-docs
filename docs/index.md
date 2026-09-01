@@ -6,6 +6,5 @@
 
 主讲教师：王健楠
 
-## 致谢
-
-本课程文档基于 [KEG-Course 程序设计训练（Python）原版课程文档](https://keg-course.github.io/python-docs/) 整理与更新，感谢原课程教学团队及文档贡献者的工作。
+!!! 致谢
+    本课程文档基于 [东昱晓老师开设的程序设计训练（Python）](https://keg-course.github.io/python-docs/)与 [韩文弢老师开设的程序设计训练（Rust）](https://lab.cs.tsinghua.edu.cn/rust/)整理与更新。转载前已获得授课教师授权。在此对原课程教学团队、原作者及文档贡献者表示感谢。

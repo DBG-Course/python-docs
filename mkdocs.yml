@@ -23,6 +23,21 @@ nav:
     - 评分标准: crawler/requirements.md
     - FAQ: crawler/faq.md
     - "附录：本地 Git 安装与配置指南": crawler/git.md
+  - 实验二：在线评测系统:
+    - 实验概述: oj/index.md
+    - 实验内容:
+      - Step1：题目管理: oj/project/step1.md
+      - Step2：题目评测: oj/project/step2.md
+      - Step3：评测列表: oj/project/step3.md
+      - Step4：用户管理: oj/project/step4.md
+      - Step5：日志与权限: oj/project/step5.md
+      - Step6：前端交互: oj/project/step6.md
+      - Advance：AI 智能命题: oj/project/advance.md
+    - API 文档: oj/api.md
+    - 评分标准: oj/requirements.md
+    - FAQ: oj/faq.md
+    - 仓库拉取教程: oj/gitpull.md
+    - Agent 架构：从文本生成到工具调用: https://lab.cs.tsinghua.edu.cn/rust/projects/agent/agent-architecture/
 
 theme:
   name: material
@@ -38,7 +53,6 @@ theme:
 
 exclude_docs: |
   site/
-  oj/
   MiniGPT/
 
 

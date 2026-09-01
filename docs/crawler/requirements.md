@@ -150,4 +150,4 @@
         - 编辑器用法：在编辑器安装相关插件或启用检查功能，保存或编辑时自动显示代码警告和建议。
 
 !!! 致谢
-    “代码规范”一节的内容参考了韩文弢老师开设的的程序设计训练（Rust）[课程文档中的对应章节](https://lab.cs.tsinghua.edu.cn/rust/projects/coding_convention/)。转载前已获得授课教师授权。在此对原作者表示感谢。
+    “代码规范”一节的内容参考了韩文弢老师开设的程序设计训练（Rust）[课程文档中的对应章节](https://lab.cs.tsinghua.edu.cn/rust/projects/coding_convention/)。转载前已获得授课教师授权。在此对原作者表示感谢。

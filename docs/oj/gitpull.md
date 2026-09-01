@@ -32,8 +32,8 @@ cd <repo-name>
 ```
 
 ```shell
-git clone https://git.tsinghua.edu.cn/python-course-2025/pa2-oj-2025123456.git
-Cloning into 'pa2-oj-2025123456'...
+git clone https://git.tsinghua.edu.cn/python-course-2026/pa2-oj-2026123456.git
+Cloning into 'pa2-oj-2026123456'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Compressing objects: 100% (2/2), done.
@@ -57,8 +57,8 @@ git remote -v
 你应该看到类似输出
 
 ```shell
-origin	https://git.tsinghua.edu.cn/python-course-2025/pa2-oj-2025123456.git (fetch)
-origin	https://git.tsinghua.edu.cn/python-course-2025/pa2-oj-2025123456.git (push)
+origin	https://git.tsinghua.edu.cn/python-course-2026/pa2-oj-2026123456.git (fetch)
+origin	https://git.tsinghua.edu.cn/python-course-2026/pa2-oj-2026123456.git (push)
 ```
 
 ## 自动化配置（可选）
