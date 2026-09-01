@@ -37,7 +37,6 @@ nav:
     - 评分标准: oj/requirements.md
     - FAQ: oj/faq.md
     - 仓库拉取教程: oj/gitpull.md
-    - Agent 架构：从文本生成到工具调用: https://lab.cs.tsinghua.edu.cn/rust/projects/agent/agent-architecture/
 
 theme:
   name: material
