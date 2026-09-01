@@ -9,28 +9,28 @@
         <meta name="author" content="程序设计训练 Python 教学组">
       
       
-        <link rel="canonical" href="https://dbg-course.github.io/python-docs/crawler/git/">
+        <link rel="canonical" href="https://dbg-course.github.io/python-docs/oj/project/advance/">
       
       
-        <link rel="prev" href="../faq/">
+        <link rel="prev" href="../step6/">
       
       
-        <link rel="next" href="../../oj/">
+        <link rel="next" href="../../api/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>附录：本地 Git 安装与配置指南 - 程序设计训练（Python）</title>
+        <title>Advance：AI 智能命题 - 程序设计训练（Python）</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -49,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -67,7 +67,7 @@
 
     
     
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#git" class="md-skip">
+        <a href="#ai" class="md-skip">
           跳转至
         </a>
       
@@ -105,7 +105,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href="../../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              附录：本地 Git 安装与配置指南
+              Advance：AI 智能命题
             
           </span>
         </div>
@@ -222,7 +222,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href="../../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -252,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -276,20 +276,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -310,7 +310,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -328,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../crawler/" class="md-nav__link">
         
   
   
@@ -405,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/crawler/" class="md-nav__link">
+      <a href="../../../crawler/project/crawler/" class="md-nav__link">
         
   
   
@@ -433,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/web/" class="md-nav__link">
+      <a href="../../../crawler/project/web/" class="md-nav__link">
         
   
   
@@ -461,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/analysis/" class="md-nav__link">
+      <a href="../../../crawler/project/analysis/" class="md-nav__link">
         
   
   
@@ -546,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/crawler/" class="md-nav__link">
+      <a href="../../../crawler/ref/crawler/" class="md-nav__link">
         
   
   
@@ -574,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/django/" class="md-nav__link">
+      <a href="../../../crawler/ref/django/" class="md-nav__link">
         
   
   
@@ -602,7 +602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/analysis/" class="md-nav__link">
+      <a href="../../../crawler/ref/analysis/" class="md-nav__link">
         
   
   
@@ -630,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/visualize/" class="md-nav__link">
+      <a href="../../../crawler/ref/visualize/" class="md-nav__link">
         
   
   
@@ -666,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../requirements/" class="md-nav__link">
+      <a href="../../../crawler/requirements/" class="md-nav__link">
         
   
   
@@ -694,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../../crawler/faq/" class="md-nav__link">
         
   
   
@@ -702,6 +702,335 @@
     
   
     FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../crawler/git/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录：本地 Git 安装与配置指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    实验二：在线评测系统
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    实验二：在线评测系统
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    实验概述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    实验内容
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    实验内容
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step1：题目管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step2：题目评测
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step3：评测列表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step4：用户管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step5：日志与权限
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../step6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step6：前端交互
   
 
     
@@ -738,7 +1067,7 @@
   <span class="md-ellipsis">
     
   
-    附录：本地 Git 安装与配置指南
+    Advance：AI 智能命题
   
 
     
@@ -756,7 +1085,7 @@
   <span class="md-ellipsis">
     
   
-    附录：本地 Git 安装与配置指南
+    Advance：AI 智能命题
   
 
     
@@ -782,21 +1111,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        初始化本地仓库
+        模块目标
       
     </span>
   </a>
@@ -804,10 +1122,177 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git 简要使用
+        前置知识要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基本功能要求
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="基本功能要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#r1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R1. 出题交互界面
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R2. 可自定义模型配置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R3. 实时进度渲染和中断功能
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r4-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R4. Token 用量与价格统计
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        设计参考
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="设计参考">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="正例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例一：与题目管理功能协作
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例二：通过工具扩展能力
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        反例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="反例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例一：与基础功能相互割裂
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例二：未能有效辅助命题
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分标准
       
     </span>
   </a>
@@ -829,159 +1314,6 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    实验二：在线评测系统
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    实验二：在线评测系统
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix="">
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    实验概述
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2">
-        
-          
-          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    实验内容
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    实验内容
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix="">
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/project/step1/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Step1：题目管理
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
               
             
               
@@ -991,183 +1323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step2/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Step2：题目评测
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/project/step3/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Step3：评测列表
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/project/step4/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Step4：用户管理
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/project/step5/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Step5：日志与权限
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/project/step6/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Step6：前端交互
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/project/advance/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Advance：AI 智能命题
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/api/" class="md-nav__link">
+      <a href="../../api/" class="md-nav__link">
         
   
   
@@ -1195,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/requirements/" class="md-nav__link">
+      <a href="../../requirements/" class="md-nav__link">
         
   
   
@@ -1223,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -1251,7 +1407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/gitpull/" class="md-nav__link">
+      <a href="../../gitpull/" class="md-nav__link">
         
   
   
@@ -1334,21 +1490,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        初始化本地仓库
+        模块目标
       
     </span>
   </a>
@@ -1356,10 +1501,177 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git 简要使用
+        前置知识要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基本功能要求
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="基本功能要求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#r1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R1. 出题交互界面
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R2. 可自定义模型配置
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R3. 实时进度渲染和中断功能
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r4-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        R4. Token 用量与价格统计
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        设计参考
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="设计参考">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        正例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="正例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例一：与题目管理功能协作
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例二：通过工具扩展能力
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        反例
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="反例">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例一：与基础功能相互割裂
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        示例二：未能有效辅助命题
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分标准
       
     </span>
   </a>
@@ -1387,48 +1699,138 @@
   
 
 
-<h1 id="git">本地 Git 安装与配置指南<a class="headerlink" href="#git" title="Permanent link">¶</a></h1>
-<div class="admonition 致谢">
-<p class="admonition-title">致谢</p>
-<p>本章内容复制自韩文弢老师开设的程序设计训练（Rust）<a href="https://lab.cs.tsinghua.edu.cn/rust/git/">课程文档中的对应章节</a>。转载前已获得授课教师授权。在此对原作者表示感谢。</p>
-</div>
-<p>本文仅介绍如何在本地使用 Git 进行代码管理，本次作业无需使用远程仓库。</p>
-<h2 id="git_1">Git 安装与配置<a class="headerlink" href="#git_1" title="Permanent link">¶</a></h2>
-<p>如果使用 Windows，请在 WSL 中进行下列操作。</p>
-<p>如果使用 Debian/Ubuntu 系列的发行版：</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
-sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>git
-</code></pre></div>
-<p>如果使用 macOS：</p>
-<div class="highlight"><pre><span></span><code>brew<span class="w"> </span>install<span class="w"> </span>git
-</code></pre></div>
-<p>也可以用 macOS 自带的 git 版本，但是它版本会老一些。</p>
-<p>安装完，可以用 <code>git --version</code> 命令确认安装成功：</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>--version
-git<span class="w"> </span>version<span class="w"> </span><span class="m">2</span>.x.x
-</code></pre></div>
-<p>此后，请使用下面的命令配置 git 身份：</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Your Name"</span><span class="w"> </span><span class="c1"># 通常可以是自己名字，或者 ID</span>
-git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"name@example.com"</span><span class="w"> </span><span class="c1"># 例如清华邮箱</span>
-</code></pre></div>
-<h2 id="_1">初始化本地仓库<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
-<p>在你想要管理的项目文件夹下执行：
-</p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>init
-</code></pre></div><p></p>
-<h2 id="git_2">Git 简要使用<a class="headerlink" href="#git_2" title="Permanent link">¶</a></h2>
-<p>Git 基本操作：</p>
-<ol>
-<li><code>git commit -am "在这里写提交说明"</code>：新建一个提交（commit），并且给这个提交设置一个提交说明（commit message）</li>
-<li><code>git add .</code>：将更改添加到暂存区</li>
-<li><code>git log"</code>: 查看历史提交</li>
-</ol>
-<p>更详细的 Git 使用，见：</p>
+<h1 id="ai">AI 智能命题<a class="headerlink" href="#ai" title="Permanent link">¶</a></h1>
+<h2 id="_1">模块目标<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
+<p>程序设计训练（Python）课程的教师与助教需要根据每节课的教学内容设计配套 OJ 题目。命题过程通常包含知识点梳理、难度控制、题面编写、测试点构造以及题目测试等多个环节，需要投入较多时间。</p>
+<p>本模块要求开发 AI 智能命题功能，辅助课程教师与助教完成每节课的 OJ 出题工作。命题人员可以输入题目必须覆盖的知识点、预期难度以及其他不同维度的要求；系统应能够据此独立完成题目设计、题目配置生成和测试点生成等多个环节，生成可用于 OJ 题目新增或编辑的完整结果。</p>
+<p>本模块不限定具体的页面结构、任务流程或技术方案。实现可以围绕真实命题需求扩展检索、脚本执行、测试数据生成等能力。</p>
+<hr>
+<h2 id="_2">前置知识要求<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>技术点</th>
+<th>推荐学习内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大语言模型 API</td>
+<td>HTTP 请求、JSON 数据、模型输入与输出</td>
+</tr>
+<tr>
+<td>模型配置</td>
+<td>提供商 URL、模型名称、模型密钥</td>
+</tr>
+<tr>
+<td>异步任务</td>
+<td>后台任务、任务状态管理、异常处理</td>
+</tr>
+<tr>
+<td>实时通信</td>
+<td>流式响应、SSE、WebSocket 或状态轮询</td>
+</tr>
+<tr>
+<td>用量统计</td>
+<td>输入/输出 Token、模型价格与费用计算</td>
+</tr>
+<tr>
+<td>配置安全</td>
+<td>API 密钥等敏感信息的保存与使用</td>
+</tr>
+</tbody>
+</table>
+<p>上述内容不限定具体框架或实现协议，可参考程序设计训练（Rust）课程的 <a href="https://lab.cs.tsinghua.edu.cn/rust/projects/agent/agent-architecture/">Agent 架构</a>了解相关概念。</p>
+<hr>
+<h2 id="_3">基本功能要求<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
+<h3 id="r1">R1. 出题交互界面<a class="headerlink" href="#r1" title="Permanent link">¶</a></h3>
+<p>系统应提供可操作的 AI 智能命题界面。可以在基础模块的题目新增、题目编辑页面上扩展相关功能，也可以新增独立的 AI 智能命题页面。</p>
+<p>界面应能够提交命题需求、展示处理状态和结果，并支持将所得内容用于后续的题目新增、审阅或修改。具体交互形式不作统一限制。</p>
+<h3 id="r2">R2. 可自定义模型配置<a class="headerlink" href="#r2" title="Permanent link">¶</a></h3>
+<p>系统应支持配置以下模型信息：</p>
 <ul>
-<li><a href="https://rogerdudler.github.io/git-guide/index.zh.html">Git 简明指南</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git 教程</a></li>
-<li><a href="https://missing-semester-cn.github.io/2020/version-control/">缺失的一课</a></li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> </li>
+<li>提供商 URL；</li>
+<li>模型名称；</li>
+<li>模型密钥。</li>
 </ul>
+<p>配置结果应实际应用于后续模型请求，不得将服务提供商、模型名称或模型密钥固定在程序代码中。模型密钥属于敏感信息，不应在日志、页面响应或错误信息中明文泄露。</p>
+<h3 id="r3">R3. 实时进度渲染和中断功能<a class="headerlink" href="#r3" title="Permanent link">¶</a></h3>
+<p>AI 智能命题任务执行期间，界面应持续展示可观察的进度信息，不得仅在任务全部完成后返回最终结果。</p>
+<p>系统应提供任务中断功能。中断操作应能够实际终止当前任务或阻止其继续执行，并在界面中明确展示任务已中断的状态。具体可采用流式响应、SSE、WebSocket、轮询等方式实现，不限定技术方案。</p>
+<h3 id="r4-token">R4. Token 用量与价格统计<a class="headerlink" href="#r4-token" title="Permanent link">¶</a></h3>
+<p>系统应统计模型调用产生的 Token 用量，并根据相应的模型价格计算调用费用。统计结果应在界面中清晰展示，至少能够反映当前任务的 Token 用量和费用。</p>
+<p>若模型接口能够分别返回输入 Token 和输出 Token，应分别记录和展示。费用统计应说明所采用的计价依据；模型接口不提供完整用量信息时，应明确标注统计方式及其限制。</p>
+<hr>
+<h2 id="_4">设计参考<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
+<p>以下示例用于说明本模块关注的设计方向，不限定具体实现方式，也不要求采用其中列出的全部功能。</p>
+<h3 id="_5">正例<a class="headerlink" href="#_5" title="Permanent link">¶</a></h3>
+<h4 id="_6">示例一：与题目管理功能协作<a class="headerlink" href="#_6" title="Permanent link">¶</a></h4>
+<p>AI 能够根据知识点或特定要求完成题目的新增或修改，并将生成结果呈现在题目编辑界面中，便于出题人员继续审阅和调整。</p>
+<p>该设计将模型能力纳入已有题目管理流程，生成结果可以直接参与后续命题工作。</p>
+<h4 id="_7">示例二：通过工具扩展能力<a class="headerlink" href="#_7" title="Permanent link">¶</a></h4>
+<p>为 AI 提供若干与命题场景相关的可调用工具。例如，通过 Web 检索相关题目设计资料，或通过服务器 CLI 编写并运行测试数据生成脚本。</p>
+<p>该设计利用外部工具扩展模型能力，使系统能够完成单纯文本生成以外的命题任务。工具的选择、权限和执行范围应根据实际设计确定。</p>
+<h3 id="_8">反例<a class="headerlink" href="#_8" title="Permanent link">¶</a></h3>
+<h4 id="_9">示例一：与基础功能相互割裂<a class="headerlink" href="#_9" title="Permanent link">¶</a></h4>
+<p>仅在页面中添加“AI 出题”按钮，触发后返回一个包含题目信息的压缩包。</p>
+<p>该功能与已有题目管理模块相互割裂，所得内容不能便捷地进入题目审阅、编辑或维护流程。</p>
+<h4 id="_10">示例二：未能有效辅助命题<a class="headerlink" href="#_10" title="Permanent link">¶</a></h4>
+<p>AI 功能只能完成单一的文本生成，或者所得题目与输入的知识点、约束条件明显无关。</p>
+<p>该功能未能有效处理所声明的命题需求，出题的主要工作仍需人工重新完成。</p>
+<hr>
+<h2 id="_11">评分标准<a class="headerlink" href="#_11" title="Permanent link">¶</a></h2>
+<p>本模块满分为 10 分。</p>
+<table>
+<thead>
+<tr>
+<th>评分项</th>
+<th style="text-align: right;">分值</th>
+<th>评分内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1. 出题交互界面</td>
+<td style="text-align: right;">1</td>
+<td>是否提供完整、可操作的 AI 智能命题界面；是否能够提交需求、展示结果，并与题目新增或修改等操作合理衔接</td>
+</tr>
+<tr>
+<td>R2. 可自定义模型配置</td>
+<td style="text-align: right;">1</td>
+<td>是否支持配置提供商 URL、模型名称和模型密钥；配置是否实际应用于模型请求</td>
+</tr>
+<tr>
+<td>R3. 实时进度渲染和中断功能</td>
+<td style="text-align: right;">1</td>
+<td>是否能够实时展示任务进度；是否能够有效中断正在执行的任务，并正确反馈任务状态</td>
+</tr>
+<tr>
+<td>R4. Token 用量与价格统计</td>
+<td style="text-align: right;">1</td>
+<td>是否能够统计并清晰展示 Token 用量和模型调用费用；费用计算依据是否明确</td>
+</tr>
+<tr>
+<td>题目合理性</td>
+<td style="text-align: right;">2</td>
+<td>AI 智能命题生成的题目是否满足真实课程要求，是否符合输入的知识点、难度及其他命题要求</td>
+</tr>
+<tr>
+<td>测试用例有效性</td>
+<td style="text-align: right;">2</td>
+<td>测试用例是否覆盖不同边界条件，数据规模和构造是否能有效区分用户提交的不同时间复杂度算法</td>
+</tr>
+<tr>
+<td>功能易用性</td>
+<td style="text-align: right;">2</td>
+<td>交互流程是否符合使用习惯，操作是否便捷，功能状态和结果展示是否清晰</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td style="text-align: right;"><strong>10</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1449,7 +1851,7 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2026年8月17日 12:18:56 UTC">2026年8月17日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2026年9月1日 06:17:00 UTC">2026年9月1日</span>
   </span>
 
     
@@ -1465,7 +1867,7 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     </span>
     <nav>
       
-        <a href="mailto:j1n9zhe@gmail.com">jz</a>
+        <a href="mailto:3498314162@qq.com">eternallyproud</a>
     </nav>
   </span>
 
@@ -1484,7 +1886,7 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
   
     <div class="md-source-date">
       <small>
-          作者：<span class="git-page-authors git-authors"><a href="mailto:j1n9zhe@gmail.com">jz</a></span>
+          作者：<span class="git-page-authors git-authors"><a href="mailto:3498314162@qq.com">eternallyproud</a></span>
       </small>
     </div>
   
@@ -1575,12 +1977,12 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/polyfill/3.112.0/polyfill.min.js?features=es6"></script>
       

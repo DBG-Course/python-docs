@@ -2,50 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dbg-course.github.io/python-docs/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/faq/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/git/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/requirements/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/project/analysis/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/project/crawler/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/project/web/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/ref/analysis/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/ref/crawler/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/ref/django/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
     </url>
     <url>
          <loc>https://dbg-course.github.io/python-docs/crawler/ref/visualize/</loc>
-         <lastmod>2026-08-24</lastmod>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/api/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/faq/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/gitpull/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/requirements/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/advance/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/step1/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/step2/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/step3/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/step4/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/step5/</loc>
+         <lastmod>2026-09-01</lastmod>
+    </url>
+    <url>
+         <loc>https://dbg-course.github.io/python-docs/oj/project/step6/</loc>
+         <lastmod>2026-09-01</lastmod>
     </url>
 </urlset>

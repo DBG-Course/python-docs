@@ -9,28 +9,28 @@
         <meta name="author" content="程序设计训练 Python 教学组">
       
       
-        <link rel="canonical" href="https://dbg-course.github.io/python-docs/crawler/git/">
+        <link rel="canonical" href="https://dbg-course.github.io/python-docs/oj/project/step5/">
       
       
-        <link rel="prev" href="../faq/">
+        <link rel="prev" href="../step4/">
       
       
-        <link rel="next" href="../../oj/">
+        <link rel="next" href="../step6/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>附录：本地 Git 安装与配置指南 - 程序设计训练（Python）</title>
+        <title>Step5：日志与权限 - 程序设计训练（Python）</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -49,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -67,7 +67,7 @@
 
     
     
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#git" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -105,7 +105,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href="../../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              附录：本地 Git 安装与配置指南
+              Step5：日志与权限
             
           </span>
         </div>
@@ -222,7 +222,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href="../../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -252,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -276,20 +276,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -310,7 +310,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -328,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../crawler/" class="md-nav__link">
         
   
   
@@ -405,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/crawler/" class="md-nav__link">
+      <a href="../../../crawler/project/crawler/" class="md-nav__link">
         
   
   
@@ -433,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/web/" class="md-nav__link">
+      <a href="../../../crawler/project/web/" class="md-nav__link">
         
   
   
@@ -461,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/analysis/" class="md-nav__link">
+      <a href="../../../crawler/project/analysis/" class="md-nav__link">
         
   
   
@@ -546,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/crawler/" class="md-nav__link">
+      <a href="../../../crawler/ref/crawler/" class="md-nav__link">
         
   
   
@@ -574,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/django/" class="md-nav__link">
+      <a href="../../../crawler/ref/django/" class="md-nav__link">
         
   
   
@@ -602,7 +602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/analysis/" class="md-nav__link">
+      <a href="../../../crawler/ref/analysis/" class="md-nav__link">
         
   
   
@@ -630,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/visualize/" class="md-nav__link">
+      <a href="../../../crawler/ref/visualize/" class="md-nav__link">
         
   
   
@@ -666,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../requirements/" class="md-nav__link">
+      <a href="../../../crawler/requirements/" class="md-nav__link">
         
   
   
@@ -694,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../../crawler/faq/" class="md-nav__link">
         
   
   
@@ -719,37 +719,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    附录：本地 Git 安装与配置指南
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../crawler/git/" class="md-nav__link">
         
   
   
@@ -765,59 +738,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        初始化本地仓库
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 简要使用
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -834,20 +754,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -868,7 +788,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -886,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
@@ -911,20 +831,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked="">
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
@@ -945,7 +865,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -963,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step1/" class="md-nav__link">
+      <a href="../step1/" class="md-nav__link">
         
   
   
@@ -991,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step2/" class="md-nav__link">
+      <a href="../step2/" class="md-nav__link">
         
   
   
@@ -1019,7 +939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step3/" class="md-nav__link">
+      <a href="../step3/" class="md-nav__link">
         
   
   
@@ -1047,7 +967,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step4/" class="md-nav__link">
+      <a href="../step4/" class="md-nav__link">
         
   
   
@@ -1072,10 +992,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../oj/project/step5/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step5：日志与权限
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1091,6 +1036,107 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        模块目标
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        前置知识要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务分解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="任务分解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 1：评测日志记录与查询
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 2：日志权限管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 3：权限配置与审计
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分细则
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1103,7 +1149,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step6/" class="md-nav__link">
+      <a href="../step6/" class="md-nav__link">
         
   
   
@@ -1131,7 +1177,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/advance/" class="md-nav__link">
+      <a href="../advance/" class="md-nav__link">
         
   
   
@@ -1167,7 +1213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/api/" class="md-nav__link">
+      <a href="../../api/" class="md-nav__link">
         
   
   
@@ -1195,7 +1241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/requirements/" class="md-nav__link">
+      <a href="../../requirements/" class="md-nav__link">
         
   
   
@@ -1223,7 +1269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -1251,7 +1297,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/gitpull/" class="md-nav__link">
+      <a href="../../gitpull/" class="md-nav__link">
         
   
   
@@ -1324,8 +1370,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1334,21 +1378,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        初始化本地仓库
+        模块目标
       
     </span>
   </a>
@@ -1356,10 +1389,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git 简要使用
+        前置知识要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务分解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="任务分解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 1：评测日志记录与查询
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 2：日志权限管理
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 3：权限配置与审计
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分细则
       
     </span>
   </a>
@@ -1387,48 +1481,96 @@
   
 
 
-<h1 id="git">本地 Git 安装与配置指南<a class="headerlink" href="#git" title="Permanent link">¶</a></h1>
-<div class="admonition 致谢">
-<p class="admonition-title">致谢</p>
-<p>本章内容复制自韩文弢老师开设的程序设计训练（Rust）<a href="https://lab.cs.tsinghua.edu.cn/rust/git/">课程文档中的对应章节</a>。转载前已获得授课教师授权。在此对原作者表示感谢。</p>
-</div>
-<p>本文仅介绍如何在本地使用 Git 进行代码管理，本次作业无需使用远程仓库。</p>
-<h2 id="git_1">Git 安装与配置<a class="headerlink" href="#git_1" title="Permanent link">¶</a></h2>
-<p>如果使用 Windows，请在 WSL 中进行下列操作。</p>
-<p>如果使用 Debian/Ubuntu 系列的发行版：</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
-sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>git
-</code></pre></div>
-<p>如果使用 macOS：</p>
-<div class="highlight"><pre><span></span><code>brew<span class="w"> </span>install<span class="w"> </span>git
-</code></pre></div>
-<p>也可以用 macOS 自带的 git 版本，但是它版本会老一些。</p>
-<p>安装完，可以用 <code>git --version</code> 命令确认安装成功：</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>--version
-git<span class="w"> </span>version<span class="w"> </span><span class="m">2</span>.x.x
-</code></pre></div>
-<p>此后，请使用下面的命令配置 git 身份：</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Your Name"</span><span class="w"> </span><span class="c1"># 通常可以是自己名字，或者 ID</span>
-git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"name@example.com"</span><span class="w"> </span><span class="c1"># 例如清华邮箱</span>
-</code></pre></div>
-<h2 id="_1">初始化本地仓库<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
-<p>在你想要管理的项目文件夹下执行：
-</p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>init
-</code></pre></div><p></p>
-<h2 id="git_2">Git 简要使用<a class="headerlink" href="#git_2" title="Permanent link">¶</a></h2>
-<p>Git 基本操作：</p>
-<ol>
-<li><code>git commit -am "在这里写提交说明"</code>：新建一个提交（commit），并且给这个提交设置一个提交说明（commit message）</li>
-<li><code>git add .</code>：将更改添加到暂存区</li>
-<li><code>git log"</code>: 查看历史提交</li>
-</ol>
-<p>更详细的 Git 使用，见：</p>
+  <h1>Step5：日志与权限</h1>
+
+<!-- ## Step 5：日志与权限管理
+
+--- --><h3 id="_1">模块目标<a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
 <ul>
-<li><a href="https://rogerdudler.github.io/git-guide/index.zh.html">Git 简明指南</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git 教程</a></li>
-<li><a href="https://missing-semester-cn.github.io/2020/version-control/">缺失的一课</a></li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> </li>
+<li>实现评测日志的记录与查询，提升系统可追溯性和调试能力。</li>
+<li>增加细粒度权限管理，如是否允许用户查看评测日志、测例详情等。</li>
+<li>支持管理员对日志和权限的管理与审计。</li>
 </ul>
+<hr>
+<h3 id="_2">前置知识要求<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>技术点</th>
+<th>推荐学习内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>日志设计</td>
+<td>日志结构、存储与查询</td>
+</tr>
+<tr>
+<td>权限控制</td>
+<td>角色权限、接口校验</td>
+</tr>
+<tr>
+<td>REST API 设计</td>
+<td>GET 路由、权限参数</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="_3">任务分解<a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
+<h4 id="1">任务 1：评测日志记录与查询<a class="headerlink" href="#1" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：为每次评测任务记录日志。</li>
+<li>要点：日志应与评测任务关联，支持按 <code>submission_id</code> 查询。</li>
+</ul>
+<blockquote>
+<p>为简化，评测日志可见性变为公开后，所有登录的人都能看到这个评测的日志，但是没权限的用户仍对 <code>Step 2 &amp; 3</code> 中评测的简单结果不可见</p>
+</blockquote>
+<h4 id="2">任务 2：日志权限管理<a class="headerlink" href="#2" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：实现细粒度权限控制，决定哪些用户可以查看哪些日志内容。</li>
+<li>要点：</li>
+<li>普通用户仅能查看自己的评测日志。</li>
+<li>管理员可查看所有日志。</li>
+<li>可扩展"允许公开日志"功能，支持题目设置是否允许<strong>所有用户</strong>查看日志详情。</li>
+</ul>
+<h4 id="3">任务 3：权限配置与审计<a class="headerlink" href="#3" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：支持管理员配置日志的可见性策略，并能审计用户的日志访问行为。</li>
+<li>要点：权限配置可针对题目、用户角色等维度，审计日志记录用户的访问操作。</li>
+</ul>
+<hr>
+<h3 id="_4">评分细则<a class="headerlink" href="#_4" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>功能/接口</th>
+<th>分值</th>
+<th>评分说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>日志记录与查询</td>
+<td>2</td>
+<td>日志结构、查询接口、内容裁剪</td>
+</tr>
+<tr>
+<td>日志/测例权限管理</td>
+<td>2</td>
+<td>权限配置、接口校验</td>
+</tr>
+<tr>
+<td>审计与安全说明</td>
+<td>1</td>
+<td>日志访问审计</td>
+</tr>
+<tr>
+<td><strong>小计</strong></td>
+<td><strong>5</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1575,12 +1717,12 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/polyfill/3.112.0/polyfill.min.js?features=es6"></script>
       

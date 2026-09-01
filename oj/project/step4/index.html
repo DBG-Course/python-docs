@@ -9,28 +9,28 @@
         <meta name="author" content="程序设计训练 Python 教学组">
       
       
-        <link rel="canonical" href="https://dbg-course.github.io/python-docs/crawler/git/">
+        <link rel="canonical" href="https://dbg-course.github.io/python-docs/oj/project/step4/">
       
       
-        <link rel="prev" href="../faq/">
+        <link rel="prev" href="../step3/">
       
       
-        <link rel="next" href="../../oj/">
+        <link rel="next" href="../step5/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>附录：本地 Git 安装与配置指南 - 程序设计训练（Python）</title>
+        <title>Step4：用户管理 - 程序设计训练（Python）</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -49,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -67,7 +67,7 @@
 
     
     
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#git" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -105,7 +105,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href="../../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              附录：本地 Git 安装与配置指南
+              Step4：用户管理
             
           </span>
         </div>
@@ -222,7 +222,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href="../../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -252,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -276,20 +276,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -310,7 +310,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -328,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../../crawler/" class="md-nav__link">
         
   
   
@@ -405,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/crawler/" class="md-nav__link">
+      <a href="../../../crawler/project/crawler/" class="md-nav__link">
         
   
   
@@ -433,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/web/" class="md-nav__link">
+      <a href="../../../crawler/project/web/" class="md-nav__link">
         
   
   
@@ -461,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/analysis/" class="md-nav__link">
+      <a href="../../../crawler/project/analysis/" class="md-nav__link">
         
   
   
@@ -546,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/crawler/" class="md-nav__link">
+      <a href="../../../crawler/ref/crawler/" class="md-nav__link">
         
   
   
@@ -574,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/django/" class="md-nav__link">
+      <a href="../../../crawler/ref/django/" class="md-nav__link">
         
   
   
@@ -602,7 +602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/analysis/" class="md-nav__link">
+      <a href="../../../crawler/ref/analysis/" class="md-nav__link">
         
   
   
@@ -630,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/visualize/" class="md-nav__link">
+      <a href="../../../crawler/ref/visualize/" class="md-nav__link">
         
   
   
@@ -666,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../requirements/" class="md-nav__link">
+      <a href="../../../crawler/requirements/" class="md-nav__link">
         
   
   
@@ -694,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../../crawler/faq/" class="md-nav__link">
         
   
   
@@ -719,37 +719,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    附录：本地 Git 安装与配置指南
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../crawler/git/" class="md-nav__link">
         
   
   
@@ -765,59 +738,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        初始化本地仓库
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 简要使用
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -834,20 +754,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -868,7 +788,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -886,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
   
   
@@ -911,20 +831,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked="">
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
@@ -945,7 +865,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -963,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step1/" class="md-nav__link">
+      <a href="../step1/" class="md-nav__link">
         
   
   
@@ -991,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step2/" class="md-nav__link">
+      <a href="../step2/" class="md-nav__link">
         
   
   
@@ -1019,7 +939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step3/" class="md-nav__link">
+      <a href="../step3/" class="md-nav__link">
         
   
   
@@ -1044,10 +964,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../oj/project/step4/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Step4：用户管理
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1063,6 +1008,129 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        模块目标
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        前置知识要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务分解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="任务分解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 0：用户登录/登出/初始管理员
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 1：用户注册
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 2：用户信息查询
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 3：用户权限变更
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 4：用户列表查询
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分细则
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1075,7 +1143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step5/" class="md-nav__link">
+      <a href="../step5/" class="md-nav__link">
         
   
   
@@ -1103,7 +1171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step6/" class="md-nav__link">
+      <a href="../step6/" class="md-nav__link">
         
   
   
@@ -1131,7 +1199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/advance/" class="md-nav__link">
+      <a href="../advance/" class="md-nav__link">
         
   
   
@@ -1167,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/api/" class="md-nav__link">
+      <a href="../../api/" class="md-nav__link">
         
   
   
@@ -1195,7 +1263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/requirements/" class="md-nav__link">
+      <a href="../../requirements/" class="md-nav__link">
         
   
   
@@ -1223,7 +1291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -1251,7 +1319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/gitpull/" class="md-nav__link">
+      <a href="../../gitpull/" class="md-nav__link">
         
   
   
@@ -1324,8 +1392,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1334,21 +1400,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        初始化本地仓库
+        模块目标
       
     </span>
   </a>
@@ -1356,10 +1411,93 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git 简要使用
+        前置知识要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务分解
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="任务分解">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 0：用户登录/登出/初始管理员
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 1：用户注册
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 2：用户信息查询
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 3：用户权限变更
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        任务 4：用户列表查询
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分细则
       
     </span>
   </a>
@@ -1387,48 +1525,223 @@
   
 
 
-<h1 id="git">本地 Git 安装与配置指南<a class="headerlink" href="#git" title="Permanent link">¶</a></h1>
-<div class="admonition 致谢">
-<p class="admonition-title">致谢</p>
-<p>本章内容复制自韩文弢老师开设的程序设计训练（Rust）<a href="https://lab.cs.tsinghua.edu.cn/rust/git/">课程文档中的对应章节</a>。转载前已获得授课教师授权。在此对原作者表示感谢。</p>
-</div>
-<p>本文仅介绍如何在本地使用 Git 进行代码管理，本次作业无需使用远程仓库。</p>
-<h2 id="git_1">Git 安装与配置<a class="headerlink" href="#git_1" title="Permanent link">¶</a></h2>
-<p>如果使用 Windows，请在 WSL 中进行下列操作。</p>
-<p>如果使用 Debian/Ubuntu 系列的发行版：</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
-sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>git
-</code></pre></div>
-<p>如果使用 macOS：</p>
-<div class="highlight"><pre><span></span><code>brew<span class="w"> </span>install<span class="w"> </span>git
-</code></pre></div>
-<p>也可以用 macOS 自带的 git 版本，但是它版本会老一些。</p>
-<p>安装完，可以用 <code>git --version</code> 命令确认安装成功：</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>--version
-git<span class="w"> </span>version<span class="w"> </span><span class="m">2</span>.x.x
-</code></pre></div>
-<p>此后，请使用下面的命令配置 git 身份：</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Your Name"</span><span class="w"> </span><span class="c1"># 通常可以是自己名字，或者 ID</span>
-git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"name@example.com"</span><span class="w"> </span><span class="c1"># 例如清华邮箱</span>
-</code></pre></div>
-<h2 id="_1">初始化本地仓库<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
-<p>在你想要管理的项目文件夹下执行：
-</p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>init
-</code></pre></div><p></p>
-<h2 id="git_2">Git 简要使用<a class="headerlink" href="#git_2" title="Permanent link">¶</a></h2>
-<p>Git 基本操作：</p>
-<ol>
-<li><code>git commit -am "在这里写提交说明"</code>：新建一个提交（commit），并且给这个提交设置一个提交说明（commit message）</li>
-<li><code>git add .</code>：将更改添加到暂存区</li>
-<li><code>git log"</code>: 查看历史提交</li>
-</ol>
-<p>更详细的 Git 使用，见：</p>
+  <h1>Step4：用户管理</h1>
+
+<!-- ## Step 4：用户管理
+
+--- --><h3 id="_1">模块目标<a class="headerlink" href="#_1" title="Permanent link">¶</a></h3>
+<p>实现用户的注册、登录登出、信息查询、权限管理、用户列表等功能，支持权限控制和安全校验。</p>
+<hr>
+<h3 id="_2">前置知识要求<a class="headerlink" href="#_2" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>技术点</th>
+<th>推荐学习内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数据结构设计</td>
+<td>用户表、权限字段</td>
+</tr>
+<tr>
+<td>Session 管理</td>
+<td>Cookie, Session</td>
+</tr>
+<tr>
+<td>REST API 设计</td>
+<td>GET/POST/PUT 路由</td>
+</tr>
+<tr>
+<td>权限控制</td>
+<td>用户/管理员区分</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="_3">任务分解<a class="headerlink" href="#_3" title="Permanent link">¶</a></h3>
+<h4 id="0">任务 0：用户登录/登出/初始管理员<a class="headerlink" href="#0" title="Permanent link">¶</a></h4>
 <ul>
-<li><a href="https://rogerdudler.github.io/git-guide/index.zh.html">Git 简明指南</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git 教程</a></li>
-<li><a href="https://missing-semester-cn.github.io/2020/version-control/">缺失的一课</a></li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> </li>
+<li>目标：实现用户登录、登出接口，系统启动时自动创建初始管理员账户（账号为 <code>admin</code> / 密码为 <code>admintestpassword</code>）。</li>
 </ul>
+<p><strong>Session 机制原理</strong></p>
+<p>Session 是 Web 应用中维持用户状态的重要机制。由于 HTTP 协议是无状态的，服务器无法直接识别连续请求来自同一用户，因此需要 Session 来解决这个问题。</p>
+<p><strong>工作流程：</strong>
+1. 用户首次访问时，服务器创建一个唯一的 Session ID
+2. 服务器将 Session ID 通过 Cookie 发送给客户端
+3. 客户端后续请求会自动携带这个 Cookie
+4. 服务器根据 Session ID 查找对应的用户信息</p>
+<p><strong>Session 存储方式：</strong>
+- <strong>内存存储</strong>：速度快，但服务器重启会丢失，不适合生产环境
+- <strong>文件存储</strong>：持久化，但并发性能较差
+- <strong>数据库存储</strong>：可靠性高，支持分布式部署
+- <strong>Redis 存储</strong>：高性能，支持过期策略，是主流选择</p>
+<p><strong>安全考虑：</strong>
+- Session ID 需要足够随机，防止被猜测
+- 使用 HTTPS 传输 Cookie，防止被窃取
+- 设置合理的过期时间，平衡用户体验和安全性
+- 登出时要清除服务器端的 Session 数据</p>
+<p>Session 相比 JWT 的优势是可以立即失效（服务器端删除），劣势是需要服务器端存储。建议查阅相关框架的 Session 文档，理解具体实现细节。</p>
+<details class="question">
+<summary>Session ID 生成</summary>
+<p>Session ID 用来唯一标记某个用户的某次会话，并且需要被服务器端存储，
+所以你需要保证拿到大规模不重复的 ID。</p>
+<p>可以使用 <code>uuid</code> 库的 <code>uuid4</code> 函数。</p>
+</details>
+<p><strong>中间件机制</strong></p>
+<p>Web 框架通常使用中间件（Middleware）来处理 Session 管理。中间件是在请求处理过程中的拦截器，可以在请求到达路由处理函数之前或之后执行特定逻辑。</p>
+<p>Session 中间件的工作原理：
+1. 请求到达时，中间件从 Cookie 中读取 Session ID
+2. 根据 Session ID 从存储中加载用户数据
+3. 将用户信息附加到请求对象上
+4. 请求处理完成后，中间件将 Session 数据保存回存储
+5. 如果需要，更新 Cookie 中的 Session ID</p>
+<p>这样设计的好处是业务代码无需关心 Session 的底层实现，只需要通过框架提供的接口访问用户信息即可。</p>
+<p><strong>FastAPI Session 中间件示例</strong></p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">starlette.middleware.sessions</span><span class="w"> </span><span class="kn">import</span> <span class="n">SessionMiddleware</span>
+
+<span class="n">app</span><span class="o">.</span><span class="n">add_middleware</span><span class="p">(</span><span class="n">SessionMiddleware</span><span class="p">,</span> <span class="n">secret_key</span><span class="o">=</span><span class="s2">"your-secret-key"</span><span class="p">)</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">"/login"</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">login</span><span class="p">(</span><span class="n">request</span><span class="p">:</span> <span class="n">Request</span><span class="p">):</span>
+    <span class="n">request</span><span class="o">.</span><span class="n">session</span><span class="p">[</span><span class="s2">"user_id"</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s2">"message"</span><span class="p">:</span> <span class="s2">"登录成功"</span><span class="p">}</span>
+</code></pre></div>
+<p>建议查阅 Starlette 官方文档中的 <a href="https://www.starlette.io/middleware/#sessionmiddleware">SessionMiddleware</a> 了解详细用法。</p>
+<h4 id="1">任务 1：用户注册<a class="headerlink" href="#1" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：提供用户注册 API。</li>
+</ul>
+<p><strong>数据验证与唯一性约束</strong></p>
+<p>用户注册需要验证输入数据的有效性。主要检查用户名是否已存在、密码是否符合要求。</p>
+<p><strong>基本验证要点：</strong>
+- 检查用户名长度（3-40 字符）
+- 检查密码长度（最少 6 位）
+- 查询数据库确认用户名未被使用
+- 密码需要加密后存储（使用bcrypt库）</p>
+<p><strong>处理流程：</strong>
+1. 接收用户名、密码参数
+2. 验证格式是否正确
+3. 检查用户名是否已存在
+4. 加密密码并存储到数据库
+5. 返回成功信息和用户ID</p>
+<h4 id="2">任务 2：用户信息查询<a class="headerlink" href="#2" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：提供 API 查询用户信息。</li>
+</ul>
+<p><strong>权限控制基础</strong></p>
+<p>用户信息查询需要控制权限，确保用户只能查看自己的信息，管理员可以查看所有用户信息。</p>
+<p><strong>权限检查流程：</strong>
+1. 从 session 中获取当前登录用户信息
+2. 检查要查询的用户ID是否是当前用户自己
+3. 或者检查当前用户是否是管理员
+4. 如果权限不足，返回403错误
+5. 如果权限充足，返回用户信息（不包含密码）</p>
+<p><strong>返回数据：</strong></p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span>
+<span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"success"</span><span class="p">,</span><span class="w"> </span>
+<span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="c1">// 查询到的用户总数</span>
+<span class="w">    </span><span class="nt">"users"</span><span class="p">:</span><span class="w"> </span>
+<span class="w">    </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w"> </span><span class="nt">"join_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1924-08-17"</span><span class="p">,</span><span class="w"> </span><span class="nt">"submit_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="nt">"resolve_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2"</span><span class="p">,</span><span class="w"> </span><span class="nt">"join_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1911-04-05"</span><span class="p">,</span><span class="w"> </span><span class="nt">"submit_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">90</span><span class="p">,</span><span class="w"> </span><span class="nt">"resolve_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3"</span><span class="p">,</span><span class="w"> </span><span class="nt">"join_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2012-07-14"</span><span class="p">,</span><span class="w"> </span><span class="nt">"submit_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span><span class="p">,</span><span class="w"> </span><span class="nt">"resolve_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="p">},</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<details class="info">
+<summary>时间获取</summary>
+<p>你可以使用如下命令获取 f'{year}-{month}-{day}' 格式的时间
+</p><div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span>
+<span class="n">now</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
+<span class="n">date_str</span> <span class="o">=</span> <span class="n">now</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s2">"%Y-%m-</span><span class="si">%d</span><span class="s2">"</span><span class="p">)</span>
+</code></pre></div><p></p>
+</details>
+<h4 id="3">任务 3：用户权限变更<a class="headerlink" href="#3" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：管理员可变更用户权限（如设为 admin/banned）。</li>
+</ul>
+<p>如果用户被 ban，其再登录时会被阻止。</p>
+<p><strong>管理员权限检查</strong></p>
+<p>只有管理员可以修改用户权限，需要严格验证操作者身份。</p>
+<p><strong>基本实现：</strong>
+1. 检查当前用户是否是管理员
+2. 获取要修改的用户ID和新权限
+3. 验证新权限值是否有效（如user、admin、banned）
+4. 更新数据库中的用户权限
+5. 记录操作日志（谁在什么时候修改了谁的权限）</p>
+<div class="admonition danger">
+<p class="admonition-title">权限提示</p>
+<p>注意，在 step1 ~ step3 中，我们没有对题目上传 / 语言创建等进行权限控制。在添加用户权限后，我们需要更新之前的功能。为简化，我们规定为：题目上传 / 创建语言可以由任意用户执行，但是删除题目操作<strong>仅管理员可执行</strong>，暂不考虑删除语言。此外，你还需要修改之前的接口，在用户未登录时无法进行增删查改。</p>
+</div>
+<h4 id="4">任务 4：用户列表查询<a class="headerlink" href="#4" title="Permanent link">¶</a></h4>
+<ul>
+<li>目标：管理员可查询所有用户列表，支持分页、筛选。</li>
+</ul>
+<p><strong>分页与筛选</strong></p>
+<p>根据 API 文档，用户列表查询，支持分页参数。</p>
+<p><strong>API 参数：</strong>
+- <code>page</code>（可选）：页码
+- <code>page_size</code>（可选）：每页大小</p>
+<p><strong>返回格式：</strong>
+</p><div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">"code"</span><span class="p">:</span><span class="w"> </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span>
+<span class="w">  </span><span class="nt">"msg"</span><span class="p">:</span><span class="w"> </span><span class="s2">"success"</span><span class="p">,</span><span class="w"> </span>
+<span class="w">  </span><span class="nt">"data"</span><span class="p">:</span><span class="w"> </span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="c1">// 查询到的用户总数</span>
+<span class="w">    </span><span class="nt">"users"</span><span class="p">:</span><span class="w"> </span>
+<span class="w">    </span><span class="p">[</span>
+<span class="w">      </span><span class="p">{</span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w"> </span><span class="nt">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"xiaoming"</span><span class="p">,</span><span class="w"> </span><span class="nt">"join_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1924-08-17"</span><span class="p">,</span><span class="w"> </span><span class="nt">"submit_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="nt">"resolve_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2"</span><span class="p">,</span><span class="w"> </span><span class="nt">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"xiaohong"</span><span class="p">,</span><span class="w"> </span><span class="nt">"join_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1911-04-05"</span><span class="p">,</span><span class="w"> </span><span class="nt">"submit_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">90</span><span class="p">,</span><span class="w"> </span><span class="nt">"resolve_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">8</span><span class="p">},</span>
+<span class="w">      </span><span class="p">{</span><span class="nt">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3"</span><span class="p">,</span><span class="w"> </span><span class="nt">"username"</span><span class="p">:</span><span class="w"> </span><span class="s2">"xiaogang"</span><span class="p">,</span><span class="w"> </span><span class="nt">"join_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2012-07-14"</span><span class="p">,</span><span class="w"> </span><span class="nt">"submit_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span><span class="p">,</span><span class="w"> </span><span class="nt">"resolve_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="p">},</span>
+<span class="w">    </span><span class="p">]</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><p></p>
+<hr>
+<h3 id="_4">评分细则<a class="headerlink" href="#_4" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>功能/接口</th>
+<th>分值</th>
+<th>评分说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用户注册接口</td>
+<td>2</td>
+<td>路径、参数、响应、异常</td>
+</tr>
+<tr>
+<td>用户信息查询接口</td>
+<td>1</td>
+<td>权限、响应、异常</td>
+</tr>
+<tr>
+<td>用户权限变更接口</td>
+<td>1</td>
+<td>权限、参数、响应、异常</td>
+</tr>
+<tr>
+<td>用户列表查询接口</td>
+<td>1</td>
+<td>分页、筛选、权限</td>
+</tr>
+<tr>
+<td><strong>小计</strong></td>
+<td><strong>5</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1575,12 +1888,12 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../../../javascripts/mathjax.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/polyfill/3.112.0/polyfill.min.js?features=es6"></script>
       

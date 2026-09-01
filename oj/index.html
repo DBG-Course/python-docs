@@ -9,28 +9,28 @@
         <meta name="author" content="程序设计训练 Python 教学组">
       
       
-        <link rel="canonical" href="https://dbg-course.github.io/python-docs/crawler/git/">
+        <link rel="canonical" href="https://dbg-course.github.io/python-docs/oj/">
       
       
-        <link rel="prev" href="../faq/">
+        <link rel="prev" href="../crawler/git/">
       
       
-        <link rel="next" href="../../oj/">
+        <link rel="next" href="project/step1/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>附录：本地 Git 安装与配置指南 - 程序设计训练（Python）</title>
+        <title>实验概述 - 程序设计训练（Python）</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
       
 
@@ -49,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -67,7 +67,7 @@
 
     
     
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -89,7 +89,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#git" class="md-skip">
+        <a href="#oj" class="md-skip">
           跳转至
         </a>
       
@@ -105,7 +105,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../.." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href=".." title="程序设计训练（Python）" class="md-header__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              附录：本地 Git 安装与配置指南
+              实验概述
             
           </span>
         </div>
@@ -222,7 +222,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
+    <a href=".." title="程序设计训练（Python）" class="md-nav__button md-logo" aria-label="程序设计训练（Python）" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -252,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -276,20 +276,20 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked="">
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2">
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -310,7 +310,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -328,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../crawler/" class="md-nav__link">
         
   
   
@@ -405,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/crawler/" class="md-nav__link">
+      <a href="../crawler/project/crawler/" class="md-nav__link">
         
   
   
@@ -433,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/web/" class="md-nav__link">
+      <a href="../crawler/project/web/" class="md-nav__link">
         
   
   
@@ -461,7 +461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../project/analysis/" class="md-nav__link">
+      <a href="../crawler/project/analysis/" class="md-nav__link">
         
   
   
@@ -546,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/crawler/" class="md-nav__link">
+      <a href="../crawler/ref/crawler/" class="md-nav__link">
         
   
   
@@ -574,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/django/" class="md-nav__link">
+      <a href="../crawler/ref/django/" class="md-nav__link">
         
   
   
@@ -602,7 +602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/analysis/" class="md-nav__link">
+      <a href="../crawler/ref/analysis/" class="md-nav__link">
         
   
   
@@ -630,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ref/visualize/" class="md-nav__link">
+      <a href="../crawler/ref/visualize/" class="md-nav__link">
         
   
   
@@ -666,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../requirements/" class="md-nav__link">
+      <a href="../crawler/requirements/" class="md-nav__link">
         
   
   
@@ -694,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../crawler/faq/" class="md-nav__link">
         
   
   
@@ -719,6 +719,90 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../crawler/git/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    附录：本地 Git 安装与配置指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    实验二：在线评测系统
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    实验二：在线评测系统
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
     
   
   
@@ -738,7 +822,7 @@
   <span class="md-ellipsis">
     
   
-    附录：本地 Git 安装与配置指南
+    实验概述
   
 
     
@@ -756,7 +840,7 @@
   <span class="md-ellipsis">
     
   
-    附录：本地 Git 安装与配置指南
+    实验概述
   
 
     
@@ -782,21 +866,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        初始化本地仓库
+        实验目标
       
     </span>
   </a>
@@ -804,10 +877,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git 简要使用
+        技术要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基础模块（共30分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        进阶模块（共 10 分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API 文档
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分标准
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学习资源
       
     </span>
   </a>
@@ -818,90 +946,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3">
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    实验二：在线评测系统
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    实验二：在线评测系统
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix="">
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../oj/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    实验概述
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -963,7 +1007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step1/" class="md-nav__link">
+      <a href="project/step1/" class="md-nav__link">
         
   
   
@@ -991,7 +1035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step2/" class="md-nav__link">
+      <a href="project/step2/" class="md-nav__link">
         
   
   
@@ -1019,7 +1063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step3/" class="md-nav__link">
+      <a href="project/step3/" class="md-nav__link">
         
   
   
@@ -1047,7 +1091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step4/" class="md-nav__link">
+      <a href="project/step4/" class="md-nav__link">
         
   
   
@@ -1075,7 +1119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step5/" class="md-nav__link">
+      <a href="project/step5/" class="md-nav__link">
         
   
   
@@ -1103,7 +1147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/step6/" class="md-nav__link">
+      <a href="project/step6/" class="md-nav__link">
         
   
   
@@ -1131,7 +1175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/project/advance/" class="md-nav__link">
+      <a href="project/advance/" class="md-nav__link">
         
   
   
@@ -1167,7 +1211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/api/" class="md-nav__link">
+      <a href="api/" class="md-nav__link">
         
   
   
@@ -1195,7 +1239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/requirements/" class="md-nav__link">
+      <a href="requirements/" class="md-nav__link">
         
   
   
@@ -1223,7 +1267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/faq/" class="md-nav__link">
+      <a href="faq/" class="md-nav__link">
         
   
   
@@ -1251,7 +1295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oj/gitpull/" class="md-nav__link">
+      <a href="gitpull/" class="md-nav__link">
         
   
   
@@ -1334,21 +1378,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#git_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Git 安装与配置
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        初始化本地仓库
+        实验目标
       
     </span>
   </a>
@@ -1356,10 +1389,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#git_2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Git 简要使用
+        技术要求
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        基础模块（共30分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        进阶模块（共 10 分）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API 文档
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        评分标准
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学习资源
       
     </span>
   </a>
@@ -1387,48 +1475,112 @@
   
 
 
-<h1 id="git">本地 Git 安装与配置指南<a class="headerlink" href="#git" title="Permanent link">¶</a></h1>
+<h1 id="oj">OJ 系统实验说明<a class="headerlink" href="#oj" title="Permanent link">¶</a></h1>
+<h2 id="_1">实验目标<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
+<p>构建一个小型但功能完整的 Online Judge (OJ) 系统，分阶段实现，逐步掌握系统设计、API 开发、异步评测、权限控制和前后端交互等核心能力。进阶模块在此基础上引入大语言模型应用开发。</p>
+<blockquote>
+<p>快速入门可参考<a href="https://lab.cs.tsinghua.edu.cn/rust/projects/oj/quick-start/">快速入门文档</a>。</p>
+</blockquote>
+<h2 id="_2">技术要求<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<p><strong>异步编程实践</strong>：本次作业要求使用 FastAPI 的异步接口（<code>async def</code>）完成所有 API 开发，目的是让大家初步体验异步编程的概念和用法。异步编程是现代 Web 开发的重要技术，有助于提高应用程序的并发性能。<strong>不使用异步编程接口将拿不到本次作业分数，请同学们务必注意。</strong></p>
+<p><strong>项目规模</strong>：为了让大家初步体验较大项目的开发，本次作业代码行数预计在两千行左右，请同学们合理规划时间，做好进度管理。</p>
+<p><strong>提交规范</strong>：要求按照 <a href="https://www.conventionalcommits.org/zh-hans/v1.0.0/">Conventional Commits</a> 规范编写 Git 提交信息，不符合规范的提交将酌情扣分。</p>
+<hr>
+<h2 id="30">基础模块（共30分）<a class="headerlink" href="#30" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>名称</th>
+<th>主要功能描述</th>
+<th>详细文档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Step 1</td>
+<td>题目管理</td>
+<td>题目配置加载、字段校验、增删改查</td>
+<td><a href="project/step1/">step1.md</a></td>
+</tr>
+<tr>
+<td>Step 2</td>
+<td>评测控制</td>
+<td>程序执行、资源限制、输出比对、动态注册语言</td>
+<td><a href="project/step2/">step2.md</a></td>
+</tr>
+<tr>
+<td>Step 3</td>
+<td>评测管理</td>
+<td>提交记录查询、状态管理、重新评测</td>
+<td><a href="project/step3/">step3.md</a></td>
+</tr>
+<tr>
+<td>Step 4</td>
+<td>用户管理</td>
+<td>用户注册、登录、权限管理、用户信息查询</td>
+<td><a href="project/step4/">step4.md</a></td>
+</tr>
+<tr>
+<td>Step 5</td>
+<td>评测日志</td>
+<td>测试点明细、日志查询、可见性与访问审计</td>
+<td><a href="project/step5/">step5.md</a></td>
+</tr>
+<tr>
+<td>Step 6</td>
+<td>前端交互</td>
+<td>用户、题目和评测提交页面，与后端 API 对接</td>
+<td><a href="project/step6/">step6.md</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="10">进阶模块（共 10 分）<a class="headerlink" href="#10" title="Permanent link">¶</a></h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>名称</th>
+<th>主要功能描述</th>
+<th>详细文档</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Advance</td>
+<td>AI 智能命题</td>
+<td>在 OJ 系统上实现 AI 辅助命题</td>
+<td><a href="project/advance/">advance.md</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="api">API 文档<a class="headerlink" href="#api" title="Permanent link">¶</a></h2>
+<p>所有接口、参数、异常、状态码等详见 <a href="api/">api.md</a>。</p>
+<hr>
+<h2 id="_3">评分标准<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
+<p>参见 <a href="requirements/">requirements.md</a></p>
+<hr>
+<h2 id="_4">学习资源<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>技术教程</strong>:</li>
+<li><a href="https://github.com/donnemartin/system-design-primer">系统设计基础</a></li>
+<li><a href="https://docs.python.org/3/library/asyncio.html">Python 异步编程</a></li>
+<li>
+<p><a href="https://lab.cs.tsinghua.edu.cn/rust/projects/agent/agent-architecture/">Agent 架构：从文本生成到工具调用</a></p>
+</li>
+<li>
+<p><strong>参考项目</strong>:</p>
+</li>
+<li><a href="https://codeforces.com/">Codeforces</a> - 知名OJ平台</li>
+<li><a href="https://leetcode.com/">LeetCode</a> - 编程练习平台</li>
+<li><a href="https://www.hackerrank.com/">HackerRank</a> - 技术评测平台</li>
+</ul>
 <div class="admonition 致谢">
 <p class="admonition-title">致谢</p>
-<p>本章内容复制自韩文弢老师开设的程序设计训练（Rust）<a href="https://lab.cs.tsinghua.edu.cn/rust/git/">课程文档中的对应章节</a>。转载前已获得授课教师授权。在此对原作者表示感谢。</p>
+<p>本实验作业参考了韩文弢老师开设的程序设计训练（Rust）<a href="https://lab.cs.tsinghua.edu.cn/rust/projects/oj/background/">OJ 大作业</a>的设计思想与文档结构。转载前已获得授课教师授权。在此对原作者及相关文档贡献者表示感谢。</p>
 </div>
-<p>本文仅介绍如何在本地使用 Git 进行代码管理，本次作业无需使用远程仓库。</p>
-<h2 id="git_1">Git 安装与配置<a class="headerlink" href="#git_1" title="Permanent link">¶</a></h2>
-<p>如果使用 Windows，请在 WSL 中进行下列操作。</p>
-<p>如果使用 Debian/Ubuntu 系列的发行版：</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
-sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>git
-</code></pre></div>
-<p>如果使用 macOS：</p>
-<div class="highlight"><pre><span></span><code>brew<span class="w"> </span>install<span class="w"> </span>git
-</code></pre></div>
-<p>也可以用 macOS 自带的 git 版本，但是它版本会老一些。</p>
-<p>安装完，可以用 <code>git --version</code> 命令确认安装成功：</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>--version
-git<span class="w"> </span>version<span class="w"> </span><span class="m">2</span>.x.x
-</code></pre></div>
-<p>此后，请使用下面的命令配置 git 身份：</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Your Name"</span><span class="w"> </span><span class="c1"># 通常可以是自己名字，或者 ID</span>
-git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"name@example.com"</span><span class="w"> </span><span class="c1"># 例如清华邮箱</span>
-</code></pre></div>
-<h2 id="_1">初始化本地仓库<a class="headerlink" href="#_1" title="Permanent link">¶</a></h2>
-<p>在你想要管理的项目文件夹下执行：
-</p><div class="highlight"><pre><span></span><code>git<span class="w"> </span>init
-</code></pre></div><p></p>
-<h2 id="git_2">Git 简要使用<a class="headerlink" href="#git_2" title="Permanent link">¶</a></h2>
-<p>Git 基本操作：</p>
-<ol>
-<li><code>git commit -am "在这里写提交说明"</code>：新建一个提交（commit），并且给这个提交设置一个提交说明（commit message）</li>
-<li><code>git add .</code>：将更改添加到暂存区</li>
-<li><code>git log"</code>: 查看历史提交</li>
-</ol>
-<p>更详细的 Git 使用，见：</p>
-<ul>
-<li><a href="https://rogerdudler.github.io/git-guide/index.zh.html">Git 简明指南</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git 教程</a></li>
-<li><a href="https://missing-semester-cn.github.io/2020/version-control/">缺失的一课</a></li>
-<li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Cheatsheet</a> </li>
-</ul>
 
 
 
@@ -1449,7 +1601,7 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2026年8月17日 12:18:56 UTC">2026年8月17日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2026年9月1日 06:17:00 UTC">2026年9月1日</span>
   </span>
 
     
@@ -1460,12 +1612,13 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
   <span class="md-source-file__fact">
     <span class="md-icon" title="贡献者">
       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"></path></svg>
       
     </span>
     <nav>
       
-        <a href="mailto:j1n9zhe@gmail.com">jz</a>
+        <a href="mailto:j1n9zhe@gmail.com">jz</a>, 
+        <a href="mailto:3498314162@qq.com">eternallyproud</a>
     </nav>
   </span>
 
@@ -1484,7 +1637,7 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
   
     <div class="md-source-date">
       <small>
-          作者：<span class="git-page-authors git-authors"><a href="mailto:j1n9zhe@gmail.com">jz</a></span>
+          作者：<span class="git-page-authors git-authors"><a href="mailto:j1n9zhe@gmail.com">jz</a> (76.92%), <a href="mailto:3498314162@qq.com">eternallyproud</a> (23.08%)</span>
       </small>
     </div>
   
@@ -1575,12 +1728,12 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.expand", "search.suggest", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../javascripts/mathjax.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/polyfill/3.112.0/polyfill.min.js?features=es6"></script>
       
