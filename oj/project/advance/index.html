@@ -1221,7 +1221,7 @@
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        示例一：与题目管理功能协作
+        示例一：通过多次迭代完善题目
       
     </span>
   </a>
@@ -1260,7 +1260,7 @@
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
-        示例一：与基础功能相互割裂
+        示例三：与基础功能相互割裂
       
     </span>
   </a>
@@ -1271,7 +1271,7 @@
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        示例二：未能有效辅助命题
+        示例四：未能有效辅助命题
       
     </span>
   </a>
@@ -1572,7 +1572,7 @@
   <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        示例一：与题目管理功能协作
+        示例一：通过多次迭代完善题目
       
     </span>
   </a>
@@ -1611,7 +1611,7 @@
   <a href="#_9" class="md-nav__link">
     <span class="md-ellipsis">
       
-        示例一：与基础功能相互割裂
+        示例三：与基础功能相互割裂
       
     </span>
   </a>
@@ -1622,7 +1622,7 @@
   <a href="#_10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        示例二：未能有效辅助命题
+        示例四：未能有效辅助命题
       
     </span>
   </a>
@@ -1736,17 +1736,17 @@
 <h2 id="_4">设计参考<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
 <p>以下示例用于说明本模块关注的设计方向，不限定具体实现方式，也不要求采用其中列出的全部功能。</p>
 <h3 id="_5">正例<a class="headerlink" href="#_5" title="Permanent link">¶</a></h3>
-<h4 id="_6">示例一：与题目管理功能协作<a class="headerlink" href="#_6" title="Permanent link">¶</a></h4>
-<p>AI 能够根据知识点或特定要求完成题目的新增或修改，并将生成结果呈现在题目编辑界面中，便于出题人员继续审阅和调整。</p>
-<p>该设计将模型能力纳入已有题目管理流程，生成结果可以直接参与后续命题工作。</p>
+<h4 id="_6">示例一：通过多次迭代完善题目<a class="headerlink" href="#_6" title="Permanent link">¶</a></h4>
+<p>允许 AI 按照相应改编要求修改已生成题目（或者其他已有题目）。例如，调整题目的背景与考察内容、修改/加强测试用例，或在保留原有考查目标的基础上设计新的题目情境。</p>
+<p>该设计允许 AI 通过多次迭代逐渐完成命题任务，出题人可以根据当前结果继续提出修改要求。具体的迭代流程和交互形式应根据实际设计确定。</p>
 <h4 id="_7">示例二：通过工具扩展能力<a class="headerlink" href="#_7" title="Permanent link">¶</a></h4>
 <p>为 AI 提供若干与命题场景相关的可调用工具。例如，通过 Web 检索相关题目设计资料，或通过服务器 CLI 编写并运行测试数据生成脚本。</p>
 <p>该设计利用外部工具扩展模型能力，使系统能够完成单纯文本生成以外的命题任务。工具的选择、权限和执行范围应根据实际设计确定。</p>
 <h3 id="_8">反例<a class="headerlink" href="#_8" title="Permanent link">¶</a></h3>
-<h4 id="_9">示例一：与基础功能相互割裂<a class="headerlink" href="#_9" title="Permanent link">¶</a></h4>
+<h4 id="_9">示例三：与基础功能相互割裂<a class="headerlink" href="#_9" title="Permanent link">¶</a></h4>
 <p>仅在页面中添加“AI 出题”按钮，触发后返回一个包含题目信息的压缩包。</p>
 <p>该功能与已有题目管理模块相互割裂，所得内容不能便捷地进入题目审阅、编辑或维护流程。</p>
-<h4 id="_10">示例二：未能有效辅助命题<a class="headerlink" href="#_10" title="Permanent link">¶</a></h4>
+<h4 id="_10">示例四：未能有效辅助命题<a class="headerlink" href="#_10" title="Permanent link">¶</a></h4>
 <p>AI 功能只能完成单一的文本生成，或者所得题目与输入的知识点、约束条件明显无关。</p>
 <p>该功能未能有效处理所声明的命题需求，出题的主要工作仍需人工重新完成。</p>
 <hr>
@@ -1823,7 +1823,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2026年9月1日 06:17:00 UTC">2026年9月1日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2026年9月1日 09:43:40 UTC">2026年9月1日</span>
   </span>
 
     
