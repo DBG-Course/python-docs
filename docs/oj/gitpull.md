@@ -27,23 +27,19 @@
 ## 克隆你的作业仓库
 
 ```bash
-git clone https://git.tsinghua.edu.cn/<git-space>/<repo-name>.git
+git clone https://github.com/<user>/<repo-name>.git
 cd <repo-name>
 ```
 
 ```shell
-git clone https://git.tsinghua.edu.cn/python-course-2026/pa2-oj-2026123456.git
-Cloning into 'pa2-oj-2026123456'...
+git clone https://github.com/youknowwho/MyOJ.git
+Cloning into 'MyOJ'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (3/3), done.
 ```
-
-!!! warning
-    如果 clone 时提示需要登录，用户名（username）是你清华 GitLab 的 ID；密码则需要前往 GitLab 的 **User settings → Personal access tokens** 创建一个 access token 来填入（不是你的登录密码）。
-
 
 你可以用以下命令查看所有远程仓库：
 
@@ -57,8 +53,8 @@ git remote -v
 你应该看到类似输出
 
 ```shell
-origin	https://git.tsinghua.edu.cn/python-course-2026/pa2-oj-2026123456.git (fetch)
-origin	https://git.tsinghua.edu.cn/python-course-2026/pa2-oj-2026123456.git (push)
+origin	https://github.com/youknowwho/MyOJ.git (fetch)
+origin	https://github.com/youknowwho/MyOJ.git (push)
 ```
 
 ## 自动化配置（可选）
@@ -77,4 +73,9 @@ git config --global pull.rebase true
 
 - 如果你发现已经输出 `Already up to date`，可以检查下目前 pull 的源名是否绑定了预期仓库。比如此处 personal 绑定了自己的个人仓库。
 
-![alt text](assets/pull-error.png)
+```shell
+git pull personal main
+From https://github.com/youknowwho/MyOJ
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+```

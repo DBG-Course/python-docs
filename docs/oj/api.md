@@ -448,7 +448,7 @@
   "code": 200,
   "msg": "success",
   "data": [
-    {"user_id": "test", "problem_id": "sum_3_numbers", "action": "view_log", "time": "2024-06-01", "status": "403"} // 这次访问用户无权限
+    {"user_id": "test", "problem_id": "sum_3_numbers", "action": "view_logs", "time": "2024-06-01", "status": "403"} // 这次访问用户无权限
   ]
 }
 ```

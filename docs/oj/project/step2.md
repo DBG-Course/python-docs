@@ -104,7 +104,7 @@
 #### 具体要求
 
 1. 题目配置
-   - 在题目 JSON 或数据库结构中，`time_limit` 和 `memory_limit` 字段可选，如果未设置的话，按照添加语言时的 `time_limit` 和 `memory_limit` 配置。
+   - 在题目 JSON 或数据库结构中，`time_limit` 和 `memory_limit` 字段可选，如果未设置的话，`time_limit` 和 `memory_limit` 按照语言配置、系统默认值的顺序逐项确定，系统默认值分别为 3 秒和 128 MB。
    - 示例：
      ```json
      {
